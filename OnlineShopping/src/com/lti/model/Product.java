@@ -2,9 +2,10 @@ package com.lti.model;
 
 public class Product {
 	
-	int productId;
 	String productName;
 	String productDescription;
+	
+
 	int quantity;
 	public int getProductId() {
 		return productId;
@@ -15,6 +16,7 @@ public class Product {
 	public String getProductName() {
 		return productName;
 	}
+
 	public void setProductName(String productName) {
 		this.productName = productName;
 	}
